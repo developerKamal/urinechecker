@@ -1,0 +1,108 @@
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f4f7fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #1A2C42;
+}
+
+.container {
+  background: white;
+  border-radius: 20px;
+  padding: 30px 40px;
+  max-width: 460px;
+  width: 100%;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.branding {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  max-width: 300px;
+}
+
+.slogan {
+  margin-top: 5px;
+  font-style: italic;
+  color: #7CA9C6;
+  font-size: 14px;
+}
+
+h1 {
+  color: #1A2C42;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+input, select {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+button {
+  background-color: #1A2C42;
+  color: white;
+  padding: 12px;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0e1a2a;
+}
+
+.result {
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  border: 1px solid;
+}
+
+.result.helder {
+  background-color: #e0ffe0;
+  color: #14532d;
+  border-color: #c0e5d1;
+}
+
+.result.donker {
+  background-color: #fff4e0;
+  color: #b45309;
+  border-color: #fbbf24;
+}
+
+.result.troebel {
+  background-color: #ffe0e0;
+  color: #991b1b;
+  border-color: #fca5a5;
+}
