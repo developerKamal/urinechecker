@@ -12,6 +12,7 @@
     </div>
     <h1>🧪 Urine-Checker</h1>
     <p>Selecteer de kleur van je urine en hoe vaak je per dag plast:</p>
+    
     <form method="post">
       <label for="color">Kleur van urine:</label>
       <select name="color" id="color">
@@ -25,6 +26,9 @@
 
       <button type="submit">Check</button>
     </form>
+
+    <!-- ✅ CTA-knop hier -->
+    <a href="#demo" class="cta-button">🚀 Probeer zelf</a>
 
     {% if result %}
       <div class="result {{ color_class }}">
